@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+    <style>
+        #app {
+            height: 85vh;
+            border: 1px solid black;
+        }
+
+        #controls {
+            display: flex;
+            flex-direction: row;
+            justify-items: left;
+            margin-block: 2px;
+            border: 1px dotted black;
+        }
+    </style>
+    <div id="app"></div>
+    <div id="controls">
+        <input id="slider" type="range" min="0" step="1"/>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+</body>
+
+</html>
