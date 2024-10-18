@@ -4,7 +4,7 @@ export type Link = {
     id: string,
     source: Node;
     target: Node;
-    visible: LinkState;
+    state: LinkState;
 };
 
 type LinkState = 
